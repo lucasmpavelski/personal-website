@@ -1,0 +1,146 @@
+@article{constraint-eed-es20,
+    title = "An empirical analysis of constraint handling on evolutionary multi-objective algorithms for the Environmental/Economic Load Dispatch problem",
+    journal = "Expert Systems with Applications",
+    volume = "165",
+    pages = "113774",
+    year = "2021",
+    issn = "0957-4174",
+    doi = "https://doi.org/10.1016/j.eswa.2020.113774",
+    url = "http://www.sciencedirect.com/science/article/pii/S0957417420305984",
+    author = {Josiel Neumann Kuk and Richard Aderbal Gon\c{c}alves and Lucas Marcondes Pavelski and Sandra Mara Guse Sc\'{o}s Venske and Carolina Paula de Almeida and Aurora Trinidad Ramirez Pozo},
+    keywords = "Multi-objective optimization, EELD, Repair procedures, Pareto-based algorithms, Indicator-based algorithms",
+    abstract = "This paper analyses different multi-objective evolutionary algorithms to deal with the Environmental/Economic Load Dispatch (EELD). EELD is formulated as a multi-objective optimization problem in which two competing objectives (fuel cost and pollutants emission) should be optimized simultaneously while fulfilling constraints. Due to the typical process of an evolutionary algorithm (EA), the use of operators applied to individuals of the population might violate constraint rules of the problem. The way in which EAs deal with such constraint rules is an important point and it is directly related to the quality of the generated solutions. One of the contributions of this paper is the analysis of the impact of a repair procedure in four multi-objective EAs. The analyzed approaches are evaluated in eight known instances (with 3, 6, 10, 20 and 40 generators) of the multi-objective EELD. Furthermore, two new instances (with 80 and 120 generators) are proposed and evaluated in this work. Experiments were applied using Dominance Ranking, hypervolume and unary-epsilon indicators, empirical attainment functions and statistical tests, in order to evaluate the algorithms performances. The results point to the consistency of the NSGA-II with repair procedure compared to the literature algorithms, and it outperforms other approaches in most of the considered instances."
+}
+
+
+@inproceedings{ml-fsp-fla-gecco19,
+    author = {Pavelski, Lucas Marcondes and Delgado, Myriam Regattieri and Kessaci, Marie-\'{E}l\'{e}onore},
+    title = {Meta-Learning on Flowshop Using Fitness Landscape Analysis},
+    year = {2019},
+    isbn = {9781450361118},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3321707.3321846},
+    doi = {10.1145/3321707.3321846},
+    abstract = {In the context of recommendation methods, meta-learning considers the use of previous knowledge regarding problems solution and performance to indicate the best strategy, whenever it faces a new similar problem. This paper studies the use of meta-learning to recommend local search strategies to solve several instances of permutation flowshop problems. The method proposed to conceive the meta-learning model is described considering three main phases: (i) extracting the problem features, (ii) building the performance database and (iii) training the recommendation model. In this work, we extract instances features mainly through fitness landscape analysis; build the performance data using the Irace parameter tuning algorithm and train neural networks models for recommendation. The paper also analyzes two mechanisms that support the recommendation: one using classification as its basis and another considering ranking processes. Experiments conducted on a wide range of different flowshop instances show that it is possible to recommend not only the best algorithms, but also some of their suitable configurations.},
+    booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+    pages = {925?933},
+    numpages = {9},
+    keywords = {metafeatures, fitness landscape analysis, meta-learning, permutation flowshop problem, heuristic recommendation},
+    location = {Prague, Czech Republic},
+    series = {GECCO '19},
+    abstract = {In the context of recommendation methods, meta-learning considers the use of previous knowledge regarding problems solution and performance to indicate the best strategy, whenever it faces a new similar problem. This paper studies the use of meta-learning to recommend local search strategies to solve several instances of permutation flowshop problems. The method proposed to conceive the meta-learning model is described considering three main phases: (i) extracting the problem features, (ii) building the performance database and (iii) training the recommendation model. In this work, we extract instances features mainly through fitness landscape analysis; build the performance data using the Irace parameter tuning algorithm and train neural networks models for recommendation. The paper also analyzes two mechanisms that support the recommendation: one using classification as its basis and another considering ranking processes. Experiments conducted on a wide range of different flowshop instances show that it is possible to recommend not only the best algorithms, but also some of their suitable configurations.}
+}
+
+@INPROCEEDINGS{ml-configs-fsp-bracis18,  
+    author={Pavelski, Lucas Marcondes and Kessaci, Marie-\'{E}l\'{e}onore and Delgado, Myriam Regattieri},  
+    booktitle={2018 7th Brazilian Conference on Intelligent Systems (BRACIS)},   
+    title={Recommending Meta-Heuristics and Configurations for the Flowshop Problem via Meta-Learning: Analysis and Design},   
+    year={2018},  
+    volume={},  
+    number={},  
+    pages={163-168},  
+    abstract={This work proposes a meta-learning system based on Gradient Boosting Machines to recommend local search heuristics for solving flowshop problems. The investigated approach can decide if a metaheuristic (MH) is suitable for each instance. It can also provide well-suited parameters for each recommended MH using data from Irace parameter tuning. This paper considers four MHs (Hill Climbing, Tabu Search, Simulated Annealing, and Iterated Local Search) as candidates to solve several flowshop instances. In the experiments, 540 flowshop problems (with different sizes, variants, and objectives) and 50 instances for each problem are considered, resulting in a total of 27,000 instances being addressed. We use simple low-level meta-features in the meta-learning system like the number of jobs and machines, processing time distribution, flowshop variant, objective, and evaluations budget. Besides testing the recommendations in terms of accuracy and Kappa (for MH and categorical parameters), RMSE and R2 (for numerical parameters), we also explore the importance of each meta-feature in MH recommendation models. Moreover, we perform a multiple correspondence analysis on MH configurations to gain further insights into the parameters values. Results show that the proposed approach is promising, particularly for MH recommendation.},  
+    keywords={flow shop scheduling;learning (artificial intelligence);search problems;simulated annealing;parameter values;meta-heuristics;hill climbing;simulated annealing;iterated local search;flowshop problems;Tabu search;gradient boosting machines;low-level meta-features;Irace parameter tuning;recommended MH;local search heuristics;meta-learning system;MH configurations;MH recommendation models;meta-feature;numerical parameters;categorical parameters;Boosting;Task analysis;Approximation algorithms;Tuning;Simulated annealing;meta learning;flowshop;optimization},  
+    doi={10.1109/BRACIS.2018.00036},  
+    ISSN={},  
+    month={Oct}
+}
+
+@INPROCEEDINGS{ml-fsp-dt-cec18,
+    author={Pavelski, Lucas Marcondes and Delgado, Myriam Regattieri and Kessaci, Marie-\'{E}l\'{e}onore},
+    booktitle={2018 IEEE Congress on Evolutionary Computation (CEC)}, 
+    title={Meta-Learning for Optimization: A Case Study on the Flowshop Problem Using Decision Trees}, 
+    year={2018},
+    volume={},
+    number={},
+    pages={1-8},
+    abstract={This work investigates the use of meta-learning for optimization tasks when a classic operational research problem (flowshop) is considered at the base level. It involves sequencing a set of jobs to be processed by machines in series aiming to minimize the time spent. There are various algorithms or metaheuristics proposed to solve flowshop instances and the choice of the best one usually demands time and resources. Meta-learning applied to algorithm recommendation can simulate specialists' choices as it provides a mapping between the problem characteristics (called meta-features) and the algorithm performance. This work proposes an approach for knowledge discovery operating on the performance of four metaheuristics (Hill Climbing, Tabu Search, Simulated Annealing, and Iterated Local Search) while solving several flowshop instances. Besides recommending the best metaheuristic for each instance, the proposed approach can also recommend well suited parameters values using an Irace-based training process. Despite the possibility of using complex meta-features and powerful machine learning technique, the first experiments have been conducted using simple low and high-level meta-features and a classic machine learning model called Classification and Regression Trees (CART) for the recommendation. Results show that the proposed approach is promising as the induced rules indicate that some metaheuristic parameters are preferable. Nevertheless, regarding the algorithm recommendation there is a lot of room for improvement.},
+    keywords={data mining;decision trees;flow shop scheduling;learning (artificial intelligence);pattern classification;regression analysis;search problems;simulated annealing;decision Trees;meta-learning;optimization tasks;metaheuristics;Irace-based training process;complex meta-features;high-level meta-features;metaheuristic parameters;flowshop problem;machine learning technique;machine learning model;operational research problem;job sequencing;knowledge discovery;hill climbing;tabu search;simulated annealing;iterated local search;classification and regression trees;Optimization;Task analysis;Search problems;Approximation algorithms;Decision trees;Electronic mail;Sequential analysis},
+    doi={10.1109/CEC.2018.8477664},
+    ISSN={},
+    month={July}
+}
+
+@InProceedings{aos-nsga3-lncs17,
+    author="Gon{\c{c}}alves, Richard A. and Pavelski, Lucas M. and de Almeida, Carolina P. and Kuk, Josiel N. and Venske, Sandra M. and Delgado, Myriam R.",
+    editor="Trautmann, Heike and Rudolph, Gunter and Klamroth, Kathrin and Sch{\"u}tze, Oliver and Wiecek, Margaret and Jin, Yaochu and Grimme, Christian",
+    title="Adaptive Operator Selection for Many-Objective Optimization with NSGA-III",
+    booktitle="Evolutionary Multi-Criterion Optimization",
+    year="2017",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="267--281",
+    abstract="The number of objectives in real-world problems has increased in recent years and better algorithms are needed to deal efficiently with it. One possible improvement to such algorithms is the use of adaptive operator selection mechanisms in many-objective optimization algorithms. In this work, two adaptive operator selection mechanisms, Probability Matching (PM) and Adaptive Pursuit (AP), are incorporated into the NSGA-III framework to autonomously select the most suitable operator while solving a many-objective problem. Our proposed approaches, NSGA-III{\$}{\$}{\_}{\{}{\backslash}text {\{}AP{\}}{\}}{\$}{\$}and NSGA-III{\$}{\$}{\_}{\{}{\backslash}text {\{}PM{\}}{\}}{\$}{\$}, are tested on benchmark instances from the DTLZ and WFG test suits and on instances of the Protein Structure Prediction Problem. Statistical tests are performed to infer the significance of the results. The preliminary results of the proposed approaches are encouraging.",
+    isbn="978-3-319-54157-0"
+}
+
+@article{el-surrogate-moo-neurocomputing16,
+    title = "Extreme Learning Surrogate Models in Multi-objective Optimization based on Decomposition",
+    journal = "Neurocomputing",
+    volume = "180",
+    pages = "55 - 67",
+    year = "2016",
+    note = "Progress in Intelligent Systems Design",
+    issn = "0925-2312",
+    doi = "https://doi.org/10.1016/j.neucom.2015.09.111",
+    url = "http://www.sciencedirect.com/science/article/pii/S0925231215016094",
+    author = {Lucas M. Pavelski and Myriam R. Delgado and Carolina P. Almeida and Richard A. Gon\c{c}alves and Sandra M. Venske},
+    keywords = "Evolutionary algorithms, Multi-objective optimization, Surrogate, Extreme learning machines, MOEA/D",
+    abstract = "This paper proposes ELMOEA/D, a surrogate-assisted MOEA, for solving costly multi-objective problems in small evaluation budgets. The proposed approach encompasses a state-of-the-art MOEA based on decomposition and Differential Evolution (MOEA/D-DE) assisted by Extreme Learning Machines (ELMs). ELMOEA/D is tested in instances from three well-known benchmarks (ZDT, DTLZ and WFG) with 5?60 decision variables, 2 and 5 objectives. The ELMOEA/D?s performance is also analyzed on a real problem (Airfoil Shape Optimization). The impact of some ELMs parameters and an automatic model selection mechanism is investigated. The results obtained by ELMOEA/D are compared with those of two state-of-the-art surrogate approaches (MOEA/D-RBF and ParEGO) and a non-surrogate-based MOEA (MOEA/D). The ELMOEA/D variants are among the best results for most benchmark instances and for the real problem."
+}
+
+@inproceedings{aos-dee-semish16,
+    author = {Richard Gon\c{c}alves and Carolina Paula de Almeida and Sandra Mara Venske and Josiel Kuk and Lucas Pavelski},
+    title = {Sele\c{c}\~{a}o Adaptativa de Operadores Aplicada ao Problema do Despacho Econ�mico de Energia El\'{e}trica},
+    booktitle = {Anais do XLIII Semin\'{a}rio Integrado de Software e Hardware},
+    location = {Porto Alegre},
+    year = {2016},
+    keywords = {},
+    issn = {2595-6205},
+    pages = {187--198},
+    publisher = {SBC},
+    address = {Porto Alegre, RS, Brasil},
+    doi = {10.5753/semish.2016.9529},
+    url = {https://sol.sbc.org.br/index.php/semish/article/view/9529}
+}
+
+@mastersthesis{moo-elm-master15,
+  title={Otimiza{\c{c}}{\~a}o evolutiva multiobjetivo baseada em decomposi{\c{c}}{\~a}o e assistida por m{\'a}quinas de aprendizado extremo},
+  author={Pavelski, Lucas Marcondes},
+  year={2015},
+  school={Universidade Tecnol{\'o}gica Federal do Paran{\'a}},
+  url={http://repositorio.utfpr.edu.br/jspui/handle/1/1254},
+  abstract={Many real optimization problems have more than one objective function. When the objectives are in conflict, there is a need for specialized strategies, as is the case of the Multi-objective Optimization Evolutionary Algorithms (MOEAs). However, if the functions evaluation is expensive (high computational or economical costs) many proposed MOEAs are impractical. An alternative might be the use of a machine learning model to approximate the fitness function (surrogates) in the optimization algorithm. This work proposes and investigates a framework called ELMOEA/D that aggregates state-of-the-art MOEAs based on decomposition of objectives (MOEA/D) and extreme learning machines as surrogate models. The proposed framework is tested with different MOEA/D variants and show good results in benchmark problems, compared to a literature algorithm that also encompasses MOEA/D but uses surrogate models based on radial basis function networks. The ELMOEA/D framework is also applied to the protein structure prediction problem (PSPP). Despite the fact that the results achieved by the proposed approach were not as encouraging as the ones achieved in the benchmarks (when the algorithms with and without surrogates are compared), many aspects of both algorithm and problem are explored. Finally, the ELMOEA/D framework is applied to an alternative formulation of the PSPP and the results lead to various directions for future works.}
+}
+
+@INPROCEEDINGS{elmoead-bracis14,
+    author={L. M. {Pavelski} and M. R. {Delgado} and Carolina Paula de Almeida and R. A. {Gon\c{c}alves} and S. M. {Venske}},
+    booktitle={2014 Brazilian Conference on Intelligent Systems}, 
+    title={ELMOEA/D-DE: Extreme Learning Surrogate Models in Multi-objective Optimization Based on Decomposition and Differential Evolution},
+    year={2014},
+    volume={},
+    number={},
+    pages={318-323},
+    abstract={Despite the success of Evolutionary Algorithms in solving complex problems, they may require many function evaluations. This becomes an issue when dealing with costly problems. Surrogate models may overcome this difficulty, though their use in problems with medium to large dimensionality is underexplored in the literature. Problems with multiple conflicting objectives can be formulated as Multi-objective Optimization Problems (MOPs). MOPs have received a great attention lately, mainly with Multi-objective Evolutionary Algorithms (MOEAs). This paper proposes ELMOEA/D-DE, a surrogate-assisted MOEA, for solving expensive MOPs in small evaluation budgets. ELMOEA/D-DE encompasses a state-of-the-art MOEA based on decomposition, Differential Evolution (DE) operators and Extreme Learning Machines. This paper tests three variants of ELMOEA/D-DE, using different DE operators, for solving five known benchmark MOPs with 10 to 60 decision variables. All variants achieve good results in terms of hyper volume metric and the best variant with operator DE/rand/1/bin is compared with two state-of-the-art approaches (MOEA/D-RBF and a non-surrogate-based MOEA), achieving the best results in all but one problems instances.},
+    keywords={evolutionary computation;learning (artificial intelligence);optimisation;ELMOEA/D-DE;extreme learning surrogate model;multiobjective optimization problem;decomposition;differential evolution;multiobjective evolutionary algorithm;surrogate-assisted MOEA;extreme learning machine;hyper volume metric;Optimization;Sociology;Statistics;Vectors;Training;Computational modeling;Measurement;multi-objective optimization;surrogate model;extreme learning machine;decomposition;differential evolution},
+    doi={10.1109/BRACIS.2014.64},
+    ISSN={},
+    month={Oct}
+}
+
+
+@inproceedings{hs-for-moo-bracis12,
+    author={L. M. {Pavelski} and Carolina Paula de Almeida and R. A. {Gon\c{c}alves}},
+    booktitle={2012 Brazilian Symposium on Neural Networks}, 
+    title={Harmony Search for Multi-objective Optimization}, 
+    year={2012},
+    volume={},
+    number={},
+    pages={220-225},
+    abstract={This paper investigates the efficiency of Harmony Search based algorithms for solving multi-objetive problems. For this task, four variants of the Harmony Search algorithm were adapted in the Non-dominated Sorting Genetic Algorithm II (NSGA-II) framework. Harmony Search is a recent proposed music-inspired metaheuristic while NSGA-II is a very successful evolutionary multi-objective algorithm. The four proposed methods are tested against each other using a set of benchmark instances proposed in CEC 2009. The best proposed algorithm is also compared with NSGA-II. The preliminary results are very promising and stand the proposed approach as a candidate to the State-of-the-art for multi-objective optimization, encouraging further researches in the hybridization of the Harmony Search and Multi-objective Evolutionary Algorithms.},
+    keywords={genetic algorithms;search problems;harmony search based algorithms;multiobjective optimization;nondominated sorting genetic algorithm II framework;NSGA-II;evolutionary multiobjective algorithm;Optimization;Sorting;Sociology;Statistics;Approximation methods;Approximation algorithms;Nickel;Harmony Search;Multi-objective Optimization;NSGA-II},
+    doi={10.1109/SBRN.2012.19},
+    ISSN={2375-0235},
+    month={Oct}
+}
