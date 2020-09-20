@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:58.240631Z'
+publishDate: '2020-09-20T14:35:31.981912Z'
 publication_types:
 - 7
 abstract: Many real optimization problems have more than one objective function. When

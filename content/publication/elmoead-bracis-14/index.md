@@ -12,12 +12,30 @@ authors:
 - R. A. Gonçalves
 - S. M. Venske
 tags:
-- '"evolutionary computation;learning (artificial intelligence);optimisation;ELMOEA/D-DE;extreme
-  learning surrogate model;multiobjective optimization problem;decomposition;differential
-  evolution;multiobjective evolutionary algorithm;surrogate-assisted MOEA;extreme
-  learning machine;hyper volume metric;Optimization;Sociology;Statistics;Vectors;Training;Computational
-  modeling;Measurement;multi-objective optimization;surrogate model;extreme learning
-  machine;decomposition;differential evolution"'
+- '"evolutionary computation"'
+- '"learning (artificial intelligence)"'
+- '"optimisation"'
+- '"ELMOEA/D-DE"'
+- '"extreme learning surrogate model"'
+- '"multiobjective optimization problem"'
+- '"decomposition"'
+- '"differential evolution"'
+- '"multiobjective evolutionary algorithm"'
+- '"surrogate-assisted MOEA"'
+- '"extreme learning machine"'
+- '"hyper volume metric"'
+- '"Optimization"'
+- '"Sociology"'
+- '"Statistics"'
+- '"Vectors"'
+- '"Training"'
+- '"Computational modeling"'
+- '"Measurement"'
+- '"multi-objective optimization"'
+- '"surrogate model"'
+- '"extreme learning machine"'
+- '"decomposition"'
+- '"differential evolution"'
 categories: []
 date: '2014-10-01'
 lastmod: 2020-09-20T11:06:35-03:00
@@ -38,7 +56,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:58.393038Z'
+publishDate: '2020-09-20T14:35:32.074475Z'
 publication_types:
 - 1
 abstract: Despite the success of Evolutionary Algorithms in solving complex problems,

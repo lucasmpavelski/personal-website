@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:57.446707Z'
+publishDate: '2020-09-20T14:35:31.353808Z'
 publication_types:
 - 2
 abstract: This paper analyses different multi-objective evolutionary algorithms to

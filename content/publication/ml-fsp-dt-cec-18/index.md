@@ -10,14 +10,40 @@ authors:
 - Myriam Regattieri Delgado
 - Marie-Éléonore Kessaci
 tags:
-- '"data mining;decision trees;flow shop scheduling;learning (artificial intelligence);pattern
-  classification;regression analysis;search problems;simulated annealing;decision
-  Trees;meta-learning;optimization tasks;metaheuristics;Irace-based training process;complex
-  meta-features;high-level meta-features;metaheuristic parameters;flowshop problem;machine
-  learning technique;machine learning model;operational research problem;job sequencing;knowledge
-  discovery;hill climbing;tabu search;simulated annealing;iterated local search;classification
-  and regression trees;Optimization;Task analysis;Search problems;Approximation algorithms;Decision
-  trees;Electronic mail;Sequential analysis"'
+- '"data mining"'
+- '"decision trees"'
+- '"flow shop scheduling"'
+- '"learning (artificial intelligence)"'
+- '"pattern classification"'
+- '"regression analysis"'
+- '"search problems"'
+- '"simulated annealing"'
+- '"decision Trees"'
+- '"meta-learning"'
+- '"optimization tasks"'
+- '"metaheuristics"'
+- '"Irace-based training process"'
+- '"complex meta-features"'
+- '"high-level meta-features"'
+- '"metaheuristic parameters"'
+- '"flowshop problem"'
+- '"machine learning technique"'
+- '"machine learning model"'
+- '"operational research problem"'
+- '"job sequencing"'
+- '"knowledge discovery"'
+- '"hill climbing"'
+- '"tabu search"'
+- '"simulated annealing"'
+- '"iterated local search"'
+- '"classification and regression trees"'
+- '"Optimization"'
+- '"Task analysis"'
+- '"Search problems"'
+- '"Approximation algorithms"'
+- '"Decision trees"'
+- '"Electronic mail"'
+- '"Sequential analysis"'
 categories: []
 date: '2018-07-01'
 lastmod: 2020-09-20T11:06:34-03:00
@@ -38,7 +64,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:57.827831Z'
+publishDate: '2020-09-20T14:35:31.631010Z'
 publication_types:
 - 1
 abstract: This work investigates the use of meta-learning for optimization tasks when

@@ -9,10 +9,22 @@ authors:
 - Carolina Paula de Almeida
 - R. A. Gonçalves
 tags:
-- '"genetic algorithms;search problems;harmony search based algorithms;multiobjective
-  optimization;nondominated sorting genetic algorithm II framework;NSGA-II;evolutionary
-  multiobjective algorithm;Optimization;Sorting;Sociology;Statistics;Approximation
-  methods;Approximation algorithms;Nickel;Harmony Search;Multi-objective Optimization;NSGA-II"'
+- '"genetic algorithms"'
+- '"search problems"'
+- '"harmony search based algorithms"'
+- '"multiobjective optimization"'
+- '"nondominated sorting genetic algorithm II framework"'
+- '"NSGA-II"'
+- '"evolutionary multiobjective algorithm"'
+- '"Optimization"'
+- '"Sorting"'
+- '"Sociology"'
+- '"Statistics"'
+- '"Approximation methods"'
+- '"Approximation algorithms"'
+- '"Harmony Search"'
+- '"Multi-objective Optimization"'
+- '"NSGA-II"'
 categories: []
 date: '2012-10-01'
 lastmod: 2020-09-20T11:06:35-03:00
@@ -33,7 +45,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:58.483269Z'
+publishDate: '2020-09-20T14:35:32.265307Z'
 publication_types:
 - 1
 abstract: This paper investigates the efficiency of Harmony Search based algorithms

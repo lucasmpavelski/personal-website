@@ -10,13 +10,36 @@ authors:
 - Marie-Éléonore Kessaci
 - Myriam Regattieri Delgado
 tags:
-- '"flow shop scheduling;learning (artificial intelligence);search problems;simulated
-  annealing;parameter values;meta-heuristics;hill climbing;simulated annealing;iterated
-  local search;flowshop problems;Tabu search;gradient boosting machines;low-level
-  meta-features;Irace parameter tuning;recommended MH;local search heuristics;meta-learning
-  system;MH configurations;MH recommendation models;meta-feature;numerical parameters;categorical
-  parameters;Boosting;Task analysis;Approximation algorithms;Tuning;Simulated annealing;meta
-  learning;flowshop;optimization"'
+- '"flow shop scheduling"'
+- '"learning (artificial intelligence)"'
+- '"search problems"'
+- '"simulated annealing"'
+- '"parameter values"'
+- '"meta-heuristics"'
+- '"hill climbing"'
+- '"simulated annealing"'
+- '"iterated local search"'
+- '"flowshop problems"'
+- '"Tabu search"'
+- '"gradient boosting machines"'
+- '"low-level meta-features"'
+- '"Irace parameter tuning"'
+- '"recommended MH"'
+- '"local search heuristics"'
+- '"meta-learning system"'
+- '"MH configurations"'
+- '"MH recommendation models"'
+- '"meta-feature"'
+- '"numerical parameters"'
+- '"categorical parameters"'
+- '"Boosting"'
+- '"Task analysis"'
+- '"Approximation algorithms"'
+- '"Tuning"'
+- '"Simulated annealing"'
+- '"meta learning"'
+- '"flowshop"'
+- '"optimization"'
 categories: []
 date: '2018-10-01'
 lastmod: 2020-09-20T11:06:34-03:00
@@ -37,7 +60,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:57.730354Z'
+publishDate: '2020-09-20T14:35:31.540361Z'
 publication_types:
 - 1
 abstract: This work proposes a meta-learning system based on Gradient Boosting Machines

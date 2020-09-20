@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-20T14:07:57.597923Z'
+publishDate: '2020-09-20T14:35:31.451805Z'
 publication_types:
 - 1
 abstract: 'In the context of recommendation methods, meta-learning considers the use
@@ -44,7 +44,7 @@ abstract: 'In the context of recommendation methods, meta-learning considers the
   of permutation flowshop problems. The method proposed to conceive the meta-learning
   model is described considering three main phases: (i) extracting the problem features,
   (ii) building the performance database and (iii) training the recommendation model.
-  In this work, we extract instances features mainly through fitness landscape analysis;
+  In this work, we extract instances features mainly through fitness landscape analysis,
   build the performance data using the Irace parameter tuning algorithm and train
   neural networks models for recommendation. The paper also analyzes two mechanisms
   that support the recommendation: one using classification as its basis and another
